@@ -1,0 +1,42 @@
+/* CSS Custom Variables */
+:root {
+  /* Color Variable */
+  --color-soft-blue: hsl(215, 51%. 70%);
+  --color-cyan: hsl(178, 100%, 50%);
+  --color-main-bg: hsl(217, 54%, 11%);
+  --color-card-bg: hsl(216, 50%, 16%);
+  --color-line: hsl(215, 32%, 27%);
+  --color-white: hsl(0, 0%, 100%);
+
+  /* Font weight variable */
+  --fw-300: 300;
+  --fw-400: 400;
+  --fw-600: 600;
+}
+
+/* CSS-General Reset */
+html {
+  font-size: 18px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-weight: var(--fw-400);
+  color: var(--color-soft-blue);
+  background-color: var(--color-main-bg);
+}
+
+/* CSS Custom Styling */
+
+
+/* Footer Section - Attribution */
+.attribution { 
+  font-size: 11px; 
+  text-align: center; 
+}
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
+
+/* CSS Responsive Design */
