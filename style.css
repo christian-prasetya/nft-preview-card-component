@@ -1,7 +1,7 @@
 /* CSS Custom Variables */
 :root {
   /* Color Variable */
-  --color-soft-blue: hsl(215, 51%. 70%);
+  --color-soft-blue: hsl(215, 51%, 70%);
   --color-cyan: hsl(178, 100%, 50%);
   --color-main-bg: hsl(217, 54%, 11%);
   --color-card-bg: hsl(216, 50%, 16%);
@@ -22,13 +22,90 @@ html {
 body {
   margin: 0;
   padding: 0;
+  font-family: 'Outfit', sans-serif;
   font-weight: var(--fw-400);
   color: var(--color-soft-blue);
   background-color: var(--color-main-bg);
 }
 
 /* CSS Custom Styling */
+.nft-card {
+  width: 400px;
+  height: max-content;
+  background-color: var(--color-card-bg);
+  margin: 100px auto;
+  padding: 1rem;
+  border-radius: 10px;
+}
 
+.nft-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  height: 400px;
+  border-radius: 10px;
+}
+
+.nft-description {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+}
+
+.nft-description h1 {
+  font-size: 1.5rem;
+  color: var(--color-white);
+  font-weight: var(--fw-600);
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-2 {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.price img,
+.time img {
+  width: 18px;
+  height: 18px;
+}
+
+.price-tag {
+  color: var(--color-cyan);
+}
+
+.tag {
+  margin: 0;
+}
+
+.underline {
+  margin: 1rem 0;
+  border-bottom: 1px solid var(--color-line);
+}
+
+.author-flex {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.author-flex img {
+  width: 2rem;
+  border: 1px solid var(--color-white);
+  border-radius: 50%;
+}
+
+span {
+  color: var(--color-white);
+}
 
 /* Footer Section - Attribution */
 .attribution { 
